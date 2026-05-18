@@ -20,3 +20,5 @@
 [COBOL Standards Website Brazil](https://web.archive.org/web/20071012131857/http://www.clubecobol.com.br/cobolstandards/)
 
 [What does aspect-oriented programming mean to Cobol?](https://web.archive.org/web/20121221093115/http://homepages.cwi.nl/~ralf/AspectCobol)
+
+[COBOL Portal](https://web.archive.org/web/20100928183310/http://www.cobolportal.com/)
