@@ -4,6 +4,11 @@
 
 [Rocket COBOL Product Forums](https://community.rocketsoftware.com/rocket-cobol-27)
 
+[What is a mainframe?](https://www.ibm.com/think/topics/mainframe)
+[What is COBOL?](https://www.ibm.com/think/topics/cobol)
+
+[IBM COBOL Compiler Family](https://www.ibm.com/products/cobol-compiler-family)
+
 ## Dead Sites
 
 [Kasten COBOL Page](https://web.archive.org/web/20101216080513/http://home.swbell.net/mck9/cobol/cobol.html)
