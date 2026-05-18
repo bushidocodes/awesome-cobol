@@ -18,6 +18,8 @@
 
 [Open Mainframe Project - COBOL Programming Course](https://openmainframeproject.org/projects/cobol-programming-course/)
 
+[Open Mainframe Project - COBOL Technical Questions](https://community.openmainframeproject.org/c/cobol-technical-questions/16)
+
 ## Dead Sites
 
 [Kasten COBOL Page](https://web.archive.org/web/20101216080513/http://home.swbell.net/mck9/cobol/cobol.html)
