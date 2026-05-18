@@ -10,3 +10,5 @@
 [Gerbrand Strap - Cobol Data Flow Restructuring](https://homepages.cwi.nl/~paulk/thesesMasterSoftwareEngineering/GerbrandStap.pdf)
 
 [COBOL Research at the Free University in Amsterdam](https://www.cs.vu.nl/Cobol/)
+
+[Old JTC1/SC22/WG4 - COBOL Site](https://web.archive.org/web/20170104085359/http://www.cobolstandard.info/wg4/wg4.html)
