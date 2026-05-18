@@ -2,9 +2,14 @@
 
 ## Living Sites
 
+[Rocket Software - COBOL Products](https://www.rocketsoftware.com/en-us/products/cobol)
+
 [Rocket COBOL Product Forums](https://community.rocketsoftware.com/rocket-cobol-27)
 
+[Rocket Software - Learn COBOL in 1 Day Course](https://www.rocketsoftware.com/en-us/learn-cobol)
+
 [What is a mainframe?](https://www.ibm.com/think/topics/mainframe)
+
 [What is COBOL?](https://www.ibm.com/think/topics/cobol)
 
 [IBM COBOL Compiler Family](https://www.ibm.com/products/cobol-compiler-family)
