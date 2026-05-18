@@ -12,3 +12,7 @@
 [COBOL Research at the Free University in Amsterdam](https://www.cs.vu.nl/Cobol/)
 
 [Old JTC1/SC22/WG4 - COBOL Site](https://web.archive.org/web/20170104085359/http://www.cobolstandard.info/wg4/wg4.html)
+
+[incits PL22.4 Site](https://web.archive.org/web/20161208153643/http://www.cobolstandard.info/j4/index.htm)
+
+[COBOL Standards Website](https://web.archive.org/web/20120915080821/http://www.cobolstandards.com/)
