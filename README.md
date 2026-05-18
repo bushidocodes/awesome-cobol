@@ -2,6 +2,8 @@
 
 ## Living Sites
 
+[comp.lang.cobol via Planet Usenet](https://www.planetusenet.com/groups/comp.lang.cobol)
+
 [COBOL on Archive.org](https://archive.org/search?query=cobol&tab=all)
 
 [GnuCOBOL](https://gnucobol.sourceforge.io/)
