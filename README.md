@@ -30,6 +30,8 @@
 
 [COBOL Tutorial on GeeksForGeeks](https://www.geeksforgeeks.org/cobol/what-is-cobolcommon-business-oriented-language/)
 
+[Jay Moseley COBOL Site](https://www.jaymoseley.com/programming/cobol.htm)
+
 ## Dead Sites
 
 [Kasten COBOL Page](https://web.archive.org/web/20101216080513/http://home.swbell.net/mck9/cobol/cobol.html)
