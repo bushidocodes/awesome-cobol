@@ -16,3 +16,5 @@
 [incits PL22.4 Site](https://web.archive.org/web/20161208153643/http://www.cobolstandard.info/j4/index.htm)
 
 [COBOL Standards Website](https://web.archive.org/web/20120915080821/http://www.cobolstandards.com/)
+
+[What does aspect-oriented programming mean to Cobol?](https://web.archive.org/web/20121221093115/http://homepages.cwi.nl/~ralf/AspectCobol)
