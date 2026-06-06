@@ -42,6 +42,14 @@
 
 [VMS IDE (VS Code)](https://marketplace.visualstudio.com/items?itemName=VMSSoftwareInc.vms-ide) — A VS Code extension for developing applications on OpenVMS systems, providing SSH connectivity, source code synchronization, project management, debugging, and syntax highlighting for languages used on OpenVMS including COBOL. *COBOL relevance: Allows developers maintaining COBOL applications on OpenVMS to work from VS Code with full remote build and debug support.*
 
+[editel](https://sourceforge.net/projects/editel/) — A screen editor and code generator for GnuCOBOL programmers that lets developers visually design terminal screens and automatically generate the corresponding COBOL SCREEN SECTION source code; written in Turbo Pascal and runs via DOSBox on modern OSes. *COBOL relevance: Eliminates manual coding of screen layouts for GnuCOBOL and Micro Focus COBOL applications.*
+
+[supra-cobol](https://sourceforge.net/projects/supra-cobol/) — A lightweight COBOL-specific code editor supporting multi-file editing and syntax highlighting, targeting RM-85 and MS-Cobol compiler toolchains. *COBOL relevance: Provides a dedicated editing environment for developers working with older COBOL compiler toolchains.*
+
+[coplug](https://sourceforge.net/projects/coplug/) — An Eclipse IDE plugin originally written for Fujitsu COBOL and repurposed for GnuCOBOL that provides syntax support and IDE features for COBOL development. *COBOL relevance: Brings COBOL development into the Eclipse ecosystem, giving developers a modern IDE experience with GnuCOBOL.*
+
+[vscobolscreen](https://sourceforge.net/projects/vscobolscreen/) — A code generator that reads simple text-based screen meta-language definitions and outputs COBOL SCREEN SECTION source code callable via PERFORM statements. *COBOL relevance: Automates the tedious task of hand-coding terminal screen handlers in COBOL, complementing tools like editel for screen-centric application development.*
+
 ## Parsers
 
 [ProLeap COBOL Parser](https://github.com/uwol/proleap-cobol-parser) — A Java-based COBOL parser built on an ANTLR4 grammar that generates an Abstract Syntax Tree (AST) and Abstract Semantic Graph (ASG), capturing data flow and control flow semantics for use by analyzers, interpreters, and code transformers. *COBOL relevance: A robust foundation for building COBOL analysis, refactoring, or migration tooling that needs deep semantic understanding of the source code.*
@@ -68,6 +76,8 @@
 
 [cobol_unit_test_suite](https://github.com/jasongorman/cobol_unit_test_suite) — A demonstration of unit testing patterns for COBOL programs, providing example test files and assertion utilities that illustrate how to structure organized test suites for COBOL functions. *COBOL relevance: Serves as a reference implementation for developers looking to adopt structured unit testing conventions in their own COBOL codebases.*
 
+[geramassacobol](https://sourceforge.net/projects/geramassacobol/) — A Java/Swing desktop application for generating bulk test data specifically for validating COBOL batch processing components, originally developed as an academic thesis project. *COBOL relevance: Speeds up COBOL batch testing by automating the creation of large, structured test datasets.*
+
 ## Debugging
 
 [tp-cobol-debugg](https://sourceforge.net/projects/tp-cobol-debugg/) — A COBOL debugger for GnuCOBOL/OpenCOBOL written entirely in GnuCOBOL itself, providing step-through debugging capabilities for developers whose COBOL vendor does not include native debugging tools. *COBOL relevance: Fills a critical gap for GnuCOBOL developers who need interactive debugging without relying on expensive vendor tooling.*
@@ -78,6 +88,12 @@
 
 [cobolanalyzer](https://sourceforge.net/projects/cobolanalyzer/) — A tool that examines dependencies within COBOL programs and copybooks, helping developers identify which programs use specific copybooks or subprograms, detect unused copybooks, and count lines of code. *COBOL relevance: Essential for large legacy COBOL estates where understanding copybook dependencies and dead code is a common maintenance challenge.*
 
+[cobol2html](https://sourceforge.net/projects/cobol2html/) — A multi-language tool that analyzes COBOL programs or entire projects and generates cross-referenced HTML documentation to aid code review and maintenance. *COBOL relevance: Turns opaque legacy COBOL codebases into browsable HTML for easier comprehension and impact analysis.*
+
+[Coboldoc (unstring)](https://sourceforge.net/projects/unstring/) — A Java web application with a browser-based interface for analyzing COBOL code; it maintains a cross-reference database of static and dynamic calls to support impact analysis and is designed to run directly on z/OS. *COBOL relevance: Provides a modern browser-based navigator for large COBOL codebases, making dependency tracking and impact analysis accessible.*
+
+[makeajackson](https://sourceforge.net/projects/makeajackson/) — A Java desktop tool for creating Jackson Structured Design (JSD) diagrams, a methodology used for designing the logical structure of procedural programs including COBOL. *COBOL relevance: Supports the JSD design methodology that many COBOL teams use to model program logic before coding.*
+
 ## TUI
 
 [cobcurses](https://github.com/ve3wwg/cobcurses) — A package that enables COBOL programmers to create screen-based terminal applications using the Open-Cobol compiler by wrapping the curses/ncurses library, working around the lack of SCREENS SECTION support. *COBOL relevance: Allows GnuCOBOL developers to build full-screen terminal UIs in COBOL without depending on proprietary screen-handling extensions.*
@@ -85,6 +101,8 @@
 ## GUI
 
 [GuiCOBOL](https://github.com/federico-priolo/GuiCOBOL) — A GUI framework for GnuCOBOL that leverages the Agar GUI toolkit to enable developers to build native graphical user interfaces for COBOL applications. *COBOL relevance: Lets COBOL developers modernize legacy batch programs with a desktop GUI layer without rewriting business logic in another language.*
+
+[guicobol](https://sourceforge.net/projects/guicobol/) — A command-line preprocessor that allows OpenCOBOL developers to use GTK 2.x libraries with an object-oriented syntax, adding full graphical user interface support to COBOL programs. *COBOL relevance: Lets COBOL developers build native GTK desktop applications, providing an alternative GUI path for teams using older OpenCOBOL/GnuCOBOL toolchains.*
 
 ## Game Engine
 
@@ -132,11 +150,19 @@
 
 [base64 (COBOL)](https://github.com/cschneid-the-elder/base64) — A COBOL implementation of base64 encoding and decoding. *COBOL relevance: Provides a reusable COBOL routine for base64 operations needed when integrating with web services or encoding binary data in COBOL programs.*
 
+[coboltojson](https://sourceforge.net/projects/coboltojson/) — A tool that converts COBOL data files to and from JSON using a COBOL copybook as the structural schema, and can also auto-generate JSON schemas from copybook definitions. *COBOL relevance: Bridges legacy COBOL flat-file data with modern JSON-based APIs and data pipelines.*
+
+[coboltocsv](https://sourceforge.net/projects/coboltocsv/) — A COBOL-and-Java tool that converts COBOL data files to and from CSV format using a copybook definition for accurate field mapping. *COBOL relevance: Simplifies data extraction from legacy COBOL files into spreadsheet-friendly CSV for reporting or migration.*
+
+[coboltoxml](https://sourceforge.net/projects/coboltoxml/) — A COBOL-and-Java tool that converts COBOL data files to and from XML using copybook definitions as the schema, with both command-line and JVM library interfaces. *COBOL relevance: Facilitates integration of COBOL data stores with XML-based enterprise systems and web services.*
+
 ## SQL
 
 [GNUCobolSQLServer](https://github.com/dwulkan/GNUCobolSQLServer) — A reference project demonstrating how to compile GnuCOBOL programs on Windows 11 that connect to and execute queries against Microsoft SQL Server databases. *COBOL relevance: Provides setup instructions and working sample code for developers integrating GnuCOBOL applications with SQL Server, a common enterprise database.*
 
 [dsc-gnu-GixSQL](https://github.com/dscobol/dsc-gnu-GixSQL) — Example programs showing how to build GnuCOBOL applications that interact with PostgreSQL databases using the GixSQL embedded SQL precompiler. *COBOL relevance: Demonstrates the use of embedded SQL (EXEC SQL) syntax in GnuCOBOL for connecting to open-source relational databases, a standard pattern in mainframe COBOL ported to open systems.*
+
+[dbpre](https://sourceforge.net/projects/dbpre/) — An SQL preprocessor for GnuCOBOL and MySQL that transforms embedded SQL statements in COBOL source into compilable GnuCOBOL code. *COBOL relevance: Enables GnuCOBOL programs to interact directly with MySQL databases using native embedded SQL syntax without manual CALL boilerplate.*
 
 ## FFI / Interop
 
@@ -148,9 +174,19 @@
 
 [acas](https://sourceforge.net/projects/acas/) — An open-source accounting application (Sales, Purchase, and Nominal Ledgers plus inventory) written in GnuCOBOL and designed for small businesses across Linux, Mac, and Windows. *COBOL relevance: A real-world GnuCOBOL application that demonstrates how COBOL handles financial ledger logic on modern open-source toolchains.*
 
+[stingrayreader](https://sourceforge.net/projects/stingrayreader/) — A Python library that provides unified, schema-driven reading of CSV, fixed-format flat files, and COBOL EBCDIC files by parsing COBOL Data Division Entry (DDE) definitions. *COBOL relevance: Allows Python programs to consume COBOL copybook-described files alongside modern formats through a single API.*
+
+[cobol-dde](https://sourceforge.net/projects/cobol-dde/) — A Python library for parsing COBOL copybook Data Division Entry definitions and using them to extract data from COBOL-format files; superseded by the Stingray Reader project. *COBOL relevance: Enables Python-based data pipelines to natively understand COBOL record structures without a mainframe.*
+
+[wsdl2cobol](https://sourceforge.net/projects/wsdl2cobol/) — An Apache Axis add-on that reads WSDL files and generates COBOL copybooks and source code for marshalling and unmarshalling SOAP/XML web service messages. *COBOL relevance: Enables COBOL programs to consume or expose SOAP web services by auto-generating the required XML-handling boilerplate.*
+
 ### Java
 
 [jrecord](https://sourceforge.net/projects/jrecord/) — A Java library for reading and writing COBOL data files in fixed-width, mainframe binary, and delimited flat-file formats using record layouts defined in COBOL, CSV, or XML. *COBOL relevance: Provides a Java-side API for consuming COBOL-formatted data files, making it straightforward to build ETL pipelines that bridge mainframe output to JVM applications.*
+
+[cb2java](https://sourceforge.net/projects/cb2java/) — A dynamic COBOL copybook parser for Java that reads copybook definitions and converts COBOL data types and record structures to and from Java objects with built-in validation. *COBOL relevance: Provides Java applications with a runtime bridge to parse and generate COBOL-format records using copybook schemas.*
+
+[layoutparser](https://sourceforge.net/projects/layoutparser/) — A Java library that maps fixed-length and CSV files to Java objects using XML-based layout definitions, targeting integration with legacy positional-data systems such as those produced by COBOL. *COBOL relevance: Lets Java applications read and write the fixed-length record formats that COBOL batch programs typically produce.*
 
 ### Node.js
 
@@ -173,6 +209,8 @@
 [COBREX-CLI](https://github.com/rishalab/COBREX-CLI) — A Python CLI tool that builds a Control Flow Graph (CFG) of a COBOL program and extracts its embedded business rules, outputting results in JSON and PDF formats. *COBOL relevance: Automates discovery and documentation of business logic hidden inside legacy COBOL programs, a critical first step in any modernization effort.*
 
 [masquerade-cobol](https://github.com/billybillymc/masquerade-cobol) — An LLM-powered tool that parses legacy COBOL systems, extracts their business logic via static analysis combined with AI, and reimplements them in Python or Java with verified behavioral equivalence. *COBOL relevance: Targets the core challenge of COBOL modernization — understanding what the code actually does — and automates the translation to a target language.*
+
+[opencobol2java](https://sourceforge.net/projects/opencobol2java/) — A pure-Java translator that parses VS COBOL II syntax and generates readable, refactorable Java source code, with support for embedded EXEC SQL statements. *COBOL relevance: Offers an automated migration path from COBOL to Java, producing Java source that developers can further refine in an IDE.*
 
 ## Games
 
@@ -485,43 +523,3 @@ BarnCamp Attendee Management System - [BAMS](https://github.com/mikebharris/BAMS
 ## Other Resources
 
 [COBOL Guide (mikeroyal)](https://github.com/mikeroyal/COBOL-Guide) — A broad community-curated GitHub guide covering COBOL frameworks, libraries, tools, and learning resources aimed at developers of all experience levels. *COBOL relevance: A wide-ranging reference that maps the COBOL ecosystem, useful for discovering tools and resources beyond the standard IBM documentation.*
-
-## To Investigate...
-
-[editel](https://sourceforge.net/projects/editel/) — A screen editor and code generator for GnuCOBOL programmers that lets developers visually design terminal screens and automatically generate the corresponding COBOL SCREEN SECTION source code; written in Turbo Pascal and runs via DOSBox on modern OSes. *COBOL relevance: Eliminates manual coding of screen layouts for GnuCOBOL and Micro Focus COBOL applications.*
-
-[coboltojson](https://sourceforge.net/projects/coboltojson/) — A tool that converts COBOL data files to and from JSON using a COBOL copybook as the structural schema, and can also auto-generate JSON schemas from copybook definitions. *COBOL relevance: Bridges legacy COBOL flat-file data with modern JSON-based APIs and data pipelines.*
-
-[supra-cobol](https://sourceforge.net/projects/supra-cobol/) — A lightweight COBOL-specific code editor that supports multi-file editing, syntax highlighting, and targets RM-85 and MS-Cobol compilers. *COBOL relevance: Provides a dedicated editing environment for developers working with older COBOL compiler toolchains.*
-
-[dbpre](https://sourceforge.net/projects/dbpre/) — An SQL preprocessor for GnuCOBOL and MySQL that transforms embedded SQL statements in COBOL source into compilable GnuCOBOL code. *COBOL relevance: Enables GnuCOBOL programs to interact directly with MySQL databases without manual CALL boilerplate.*
-
-[guicobol](https://sourceforge.net/projects/guicobol/) — A command-line preprocessor that allows OpenCOBOL developers to use GTK 2.x libraries with an object-oriented syntax, adding full graphical user interface support to COBOL programs. *COBOL relevance: Lets COBOL developers build native GUI desktop applications using the GTK toolkit.*
-
-[coboltocsv](https://sourceforge.net/projects/coboltocsv/) — A COBOL-and-Java tool that converts COBOL data files to and from CSV format using a copybook definition for accurate field mapping. *COBOL relevance: Simplifies data extraction from legacy COBOL files into spreadsheet-friendly CSV for reporting or migration.*
-
-[stingrayreader](https://sourceforge.net/projects/stingrayreader/) — A Python library that provides unified, schema-driven reading of CSV, fixed-format flat files, and COBOL EBCDIC files by parsing COBOL Data Division Entry (DDE) definitions. *COBOL relevance: Allows Python programs to consume COBOL copybook-described files alongside modern formats through a single API.*
-
-[coboltoxml](https://sourceforge.net/projects/coboltoxml/) — A COBOL-and-Java tool that converts COBOL data files to and from XML using copybook definitions as the schema, with both command-line and JVM library interfaces. *COBOL relevance: Facilitates integration of COBOL data stores with XML-based enterprise systems and web services.*
-
-[coplug](https://sourceforge.net/projects/coplug/) — An Eclipse IDE plugin originally written for Fujitsu COBOL and repurposed for GnuCOBOL that provides syntax support and IDE features for COBOL development. *COBOL relevance: Brings COBOL development into the Eclipse ecosystem, giving developers a modern IDE experience with GnuCOBOL.*
-
-[layoutparser](https://sourceforge.net/projects/layoutparser/) — A Java library that maps fixed-length and CSV files to Java objects using XML-based layout definitions, targeting integration with legacy positional-data systems such as those produced by COBOL. *COBOL relevance: Lets Java applications read and write the fixed-length record formats that COBOL batch programs typically produce.*
-
-[geramassacobol](https://sourceforge.net/projects/geramassacobol/) — A Java/Swing desktop application for generating bulk test data specifically for validating COBOL batch processing components, originally developed as an academic thesis project. *COBOL relevance: Speeds up COBOL batch testing by automating the creation of large, structured test datasets.*
-
-[vscobolscreen](https://sourceforge.net/projects/vscobolscreen/) — A code generator that reads simple text-based screen meta-language definitions and outputs COBOL SCREEN SECTION source code callable via PERFORM statements. *COBOL relevance: Automates the tedious task of hand-coding terminal screen handlers in COBOL.*
-
-[cobol2html](https://sourceforge.net/projects/cobol2html/) — A multi-language tool that analyzes COBOL programs or entire projects and generates cross-referenced HTML documentation to aid code review and maintenance. *COBOL relevance: Turns opaque legacy COBOL codebases into browsable HTML for easier comprehension and impact analysis.*
-
-[cb2java](https://sourceforge.net/projects/cb2java/) — A dynamic COBOL copybook parser for Java that reads copybook definitions and converts COBOL data types and record structures to and from Java objects with built-in validation. *COBOL relevance: Provides Java applications with a runtime bridge to parse and generate COBOL-format records using copybook schemas.*
-
-[cobol-dde](https://sourceforge.net/projects/cobol-dde/) — A Python library for parsing COBOL copybook Data Division Entry definitions and using them to extract data from COBOL-format files; superseded by the Stingray Reader project. *COBOL relevance: Enables Python-based data pipelines to natively understand COBOL record structures without a mainframe.*
-
-[unstring](https://sourceforge.net/projects/unstring/) *(resolves to Coboldoc)* — Coboldoc is a Java web application with a browser-based interface for analyzing COBOL code; it maintains a cross-reference database of static and dynamic calls to support impact analysis and is designed to run directly on z/OS. *COBOL relevance: Provides a modern browser-based navigator for large COBOL codebases, making dependency tracking and impact analysis accessible.*
-
-[makeajackson](https://sourceforge.net/projects/makeajackson/) — A Java desktop tool for creating Jackson Structured Design (JSD) diagrams, a methodology used for designing the logical structure of procedural programs including COBOL. *COBOL relevance: Supports the JSD design methodology that many COBOL teams use to model program logic before coding.*
-
-[opencobol2java](https://sourceforge.net/projects/opencobol2java/) — A pure-Java translator that parses VS COBOL II syntax and generates readable, refactorable Java code, with support for embedded EXEC SQL statements. *COBOL relevance: Offers an automated migration path from COBOL to Java, producing Java source that developers can further refine in an IDE.*
-
-[wsdl2cobol](https://sourceforge.net/projects/wsdl2cobol/) — An Apache Axis add-on that reads WSDL files and generates COBOL copybooks and source code for marshalling and unmarshalling SOAP/XML web service messages. *COBOL relevance: Enables COBOL programs to consume or expose SOAP web services by auto-generating the required XML-handling boilerplate.*
